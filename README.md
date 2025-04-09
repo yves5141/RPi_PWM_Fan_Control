@@ -3,7 +3,7 @@ A shell script for controlling the cooling fan of a Raspberry Pi using one of it
 No need for unreliable support of python scripts anymore.
 This solution controls the fan by using a high frequency pwm in order to avoid noise from the fan.
 
-Using a NPN transistor and a base resistor of about 1kOhm and a pull-down resistor between base and emitter you can use GPIO 12 for controlling a fan.
+Using a NPN transistor and a base resistor of about 1kOhm and a 10kOhm pull-down resistor between base and emitter you can use GPIO 12 for controlling a fan.
 
 #### Setup (LibreElec):
 
