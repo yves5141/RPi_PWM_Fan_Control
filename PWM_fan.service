@@ -1,0 +1,11 @@
+[Unit]
+Description = PWM Fan Control
+After = mediacenter.service
+
+[Service]
+Type = simple
+ExecStart = /storage/.kodi/userdata/PWM_fan/pwm_fan_RPi.sh
+Restart = always
+
+[Install]
+WantedBy = kodi.target
